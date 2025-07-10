@@ -13,5 +13,6 @@
   { "id": 12, "name": "Lana Foster", "email": "lana@example.com", "status": "pending", "lastLogin": "27:06:25 22:30" },
   { "id": 13, "name": "Mike Jordan", "email": "mike@example.com", "status": "active", "lastLogin": "02:07:25 01:00" },
   { "id": 14, "name": "Nina Patel", "email": "nina@example.com", "status": "inactive", "lastLogin": "23:06:25 13:00" },
-  { "id": 15, "name": "Oscar Reyes", "email": "oscar@example.com", "status": "pending", "lastLogin": "26:06:25 09:30" }
+  { "id": 15, "name": "Oscar Reyes", "email": "oscar@example.com", "status": "pending", "lastLogin": "26:06:25 09:30" },
+  { "id": 16, "name": "Bob Evans", "email": "bob1@example.com", "status": "inactive", "lastLogin": "15:06:24 08:12" }
 ]

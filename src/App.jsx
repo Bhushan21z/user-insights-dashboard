@@ -10,6 +10,7 @@ export default function App() {
   const [search, setSearch] = useState("");
   const [statuses, setStatuses] = useState([]);
   const [sortAsc, setSortAsc] = useState(true);
+  const [filteredNames, setFilteredNames] = useState([])
 
   useEffect(() => {
     fetchUsers().then(setUsers);
@@ -21,12 +22,13 @@ export default function App() {
       return;
     }
 
-    const data = users.filter(user =>
+    const data = filtered.filter(user =>
       user.name.toLowerCase().includes(search.toLowerCase()) ||
       user.email.toLowerCase().includes(search.toLowerCase())
     );
 
     setFiltered(data);
+    
   };
 
   const handleStatuses = () => {
